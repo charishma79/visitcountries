@@ -1,0 +1,42 @@
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 35px;
+  padding: 25px;
+}
+
+.name {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.visit-text {
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  color: #94a3b8;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.seperator {
+  border: 1px solid #334155;
+  width: 100%;
+}
+
+.visit {
+  background-color: #3b82f6;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  padding: 10px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  border-radius: 5px;
+}

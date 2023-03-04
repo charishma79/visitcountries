@@ -1,0 +1,91 @@
+.bg-container {
+  background-color: #161624;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.countries-list-container {
+  height: 40vh;
+  overflow-y: scroll;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #1f1f2f;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 35px;
+  padding: 25px;
+}
+
+.name {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.visit-text {
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  color: #94a3b8;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.seperator {
+  border: 1px solid #334155;
+  width: 100%;
+}
+
+.visit {
+  background-color: #3b82f6;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  padding: 10px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.visit-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.visited-container {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.no-country {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 105px;
+}
